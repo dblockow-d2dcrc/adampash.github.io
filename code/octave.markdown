@@ -41,6 +41,7 @@ brew install octave --with-x11
 brew install fltk
 
 # install gnuplot (this may be installed as part of octave now)
+brew uninstall gnuplot
 brew install gnuplot --with-x11
 {% endhighlight %}
 
